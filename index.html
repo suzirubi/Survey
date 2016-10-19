@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Survey</h2>
+        <div id="survey">
+        <form>
+          <div class="form-group">
+            <label for="name">Enter Your Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="born">Enter Your Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="color">What is your favorite color? *Click on the color bar below to pick your favorite.</label>
+            <input id="color" class="form-control" type="color" value="#ff0000">
+          </div>
+          <label for="food">Select you favorite food below:</label>
+          <select class="form-control" id="food">
+            <option>Pizza</option>
+            <option>Ice Cream</option>
+            <option>Hamburgers</option>
+            <option>Ramen</option>
+          </select>
+          <div class="radio-music">
+            <label for="music">Select your favorite type of music below:</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="classical" checked>
+                Classical
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="rock">
+                Rock
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="jazz">
+                Jazz
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn">Click for your receipt:</button>
+        </form>
+      </div>
+      <div id="receipt">
+        <p class="name"></p>
+        <p class="born"></p>
+        <p class="color"></p>
+        <p class="food"></p>
+        <p class="music"></p>
+      </div>
+    </div>
+  </body>
+</html>
