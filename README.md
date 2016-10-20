@@ -1,6 +1,6 @@
 #Survey Form web page
 
-###_Pet web page, 10.19.16_
+###_Survey web page, 10.19.16_
 
 ####By Suzi Rubino and Chris Clifford
 
