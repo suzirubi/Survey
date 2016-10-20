@@ -2,11 +2,11 @@
 
 ###_Pet web page, 10.19.16_
 
-####By Suzi Rubino and Hal Fairless
+####By Suzi Rubino and Chris Clifford
 
 ##Description
 
-Web page with night and day mode buttons
+Web page with radio, select and pull-down labels
 
 ###Setup/Installation Requirements
 
